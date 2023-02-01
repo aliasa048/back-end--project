@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Juan",
+    "\\Juan\\Juan",
+    "\\Juan\\Juan\\Areas",
+    "\\Juan\\Juan\\Areas\\AdminArea",
+    "\\Juan\\Juan\\Areas\\AdminArea\\Controllers",
+    "\\Juan\\Juan\\Controllers",
+    "\\Juan\\Juan\\ViewComponents",
+    "\\Juan\\Juan\\Views",
+    "\\Juan\\Juan\\Views\\Account"
+  ],
+  "SelectedNode": "\\Juan\\Juan\\Views\\Account\\ResetPassword.cshtml",
+  "PreviewInSolutionExplorer": false
+}

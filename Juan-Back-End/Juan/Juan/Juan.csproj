@@ -1,0 +1,181 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20221105191057_UpdateSliderTable1.cs" />
+    <Compile Remove="Migrations\20221105191057_UpdateSliderTable1.Designer.cs" />
+    <Compile Remove="Migrations\20221110124742_UpdatePraduct43.cs" />
+    <Compile Remove="Migrations\20221110124742_UpdatePraduct43.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\AdminArea\Views\Slider\Create.cshtml" />
+    <None Include="Areas\AdminArea\Views\Slider\Detail.cshtml" />
+    <None Include="Areas\AdminArea\Views\Slider\Index.cshtml" />
+    <None Include="Areas\AdminArea\Views\Slider\Update.cshtml" />
+    <None Include="wwwroot\Admin\css\style.min.css.map" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-2.svg" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-face-02.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-face-03.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-face-04.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-face-05.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-illustrated-01.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-illustrated-02.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-illustrated-03.webp" />
+    <None Include="wwwroot\Admin\img\avatar\avatar-illustrated-04.webp" />
+    <None Include="wwwroot\Admin\img\avatar\Avatar.svg" />
+    <None Include="wwwroot\Admin\img\categories\01.webp" />
+    <None Include="wwwroot\Admin\img\categories\02.webp" />
+    <None Include="wwwroot\Admin\img\categories\03.webp" />
+    <None Include="wwwroot\Admin\img\categories\04.webp" />
+    <None Include="wwwroot\Admin\img\svg\404.svg" />
+    <None Include="wwwroot\Admin\img\svg\baloon.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\2 User.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\3-User-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\3-User-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Activity.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\AddUser.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Down.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Down2.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Down3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-DownCircle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-DownSquare.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Left.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Left2.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Left3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-LeftCircle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-LeftSquare.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Right.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Right2.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Right3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-RightCircle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-RightSquare.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Up.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Up2.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-Up3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-UpCircle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrow-UpSquare.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Arrows-up-down.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Bag 3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Bag.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Bookmark.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Buy.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Calendar.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Call Missed.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Call Silent.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Call.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Calling.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Camera.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Category-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Category-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Chart.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Chat.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Close Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Danger.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Delete.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Discount.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Discovery.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Document-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Document-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Download.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Edit Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Edit-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Edit-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Filter 2.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Filter.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Folder-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Folder-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Game.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Graph.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Heart.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Hide.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Home-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Home-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Image 3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Image-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Image-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Info Circle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Info Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Location.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Lock.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Login.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Logout.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Menu-toggle-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Menu-toggle-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Message-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Message-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\More Circle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\More Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Notification-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Notification.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper Download.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper Fail.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper Negative.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper Plus.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper Upload.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Paper-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Password.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Play.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Plus.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Profile.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Scan.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Search.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Send.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Setting-gray.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Setting-white.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Settings-line.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Shield Done.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Shield Fail.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Show.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Star.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Swap.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Tick Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Ticket Star.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Ticket.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Time Square.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\TimeCircle.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Unlock.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Upload.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Video.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Voice 3.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Voice.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Volume Down.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Volume Off.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Volume Up.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Wallet.svg" />
+    <None Include="wwwroot\Admin\img\svg\Bulk\Work.svg" />
+    <None Include="wwwroot\Admin\img\svg\customers.svg" />
+    <None Include="wwwroot\Admin\img\svg\dropbox.svg" />
+    <None Include="wwwroot\Admin\img\svg\GoogleDrive.svg" />
+    <None Include="wwwroot\Admin\img\svg\image-frame.svg" />
+    <None Include="wwwroot\Admin\img\svg\Logo.svg" />
+    <None Include="wwwroot\Admin\img\svg\move.svg" />
+    <None Include="wwwroot\Admin\img\svg\radio.svg" />
+    <None Include="wwwroot\Admin\img\svg\thumbnail.svg" />
+    <None Include="wwwroot\Admin\js\script.js" />
+    <None Include="wwwroot\Admin\plugins\chart.min.js" />
+    <None Include="wwwroot\Admin\plugins\feather.min.js" />
+    <None Include="wwwroot\Admin\plugins\feather.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.4.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

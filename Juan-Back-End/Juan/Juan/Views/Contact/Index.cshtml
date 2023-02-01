@@ -1,0 +1,51 @@
+﻿<main>
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area bg-img" data-bg="assets/img/banner/breadcrumb-banner.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap text-center">
+                        <nav aria-label="breadcrumb">
+                            <h1 class="breadcrumb-title">Contact Us</h1>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+    <!-- contact wrapper area start -->
+    <div class="contact-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <partial  name="Partials/_Contact">
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info pt-0">
+                        <h2 class="contact-title">contact us</h2>
+                        <p>
+                            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum
+                            formas human.
+                        </p>
+                        <ul>
+                            <li><i class="fa fa-fax"></i>@ViewBag.Address</li>
+                            <li><i class="fa fa-phone"></i>@ViewBag.PhoneNumber</li>
+                            <li><i class="fa fa-envelope-o"></i>@ViewBag.Email</li>
+                        </ul>
+                        <div class="working-time">
+                            <h3>Working Hours</h3>
+                            <p class="pb-0">@ViewBag.WorkingHours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact wrapper area end -->
+</main>
